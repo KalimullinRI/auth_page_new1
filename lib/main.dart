@@ -30,6 +30,7 @@ class MyApp extends StatelessWidget {
             )
           ),
           width: double.infinity,
+          height: double.infinity,
           padding: EdgeInsets.symmetric(horizontal: 50),
           child: SingleChildScrollView(
             child: Column(children: [
@@ -78,7 +79,6 @@ class MyApp extends StatelessWidget {
               SizedBox(height: 20,),
               InkWell(child: const Text('Забыли пароль?', style: LinkTextStyle,),
                   onTap:() {}),
-              SizedBox(height: 190,),
             ],),
           ),
         )
